@@ -1,5 +1,5 @@
 body{
-  margin-left: 420px; margin-right: 420px;
+  margin-left: 100px; margin-right: 100px;
   font-family: 'Allerta';
   background-color: #ECEFEC;
 
@@ -39,7 +39,7 @@ body{
     border: none;
     color: black;
     padding: 12px 110px;
-    font-size: 16px;
+    font-size: 13px;
     cursor: pointer;
     box-shadow: 0 0 1px #CCCCCC;
 width: 33.33%;
@@ -48,5 +48,5 @@ margin:auto;
  margin-top: 40px;
     
   }
-.more {background-color: white;} /* Green */
+.more {background-color: white;}
 .more:hover {background-color: #CCCCCC;}
