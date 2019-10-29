@@ -1,0 +1,293 @@
+
+
+/* ======+++++======++++=====+++=== */
+/* ============ DESKTOP RULES ===== */
+/* ======+++++======++++=====+++=== */
+
+/* desktop rules go here */
+
+/* header & nav */
+
+.logo{
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+ 
+.navigation{
+  display: grid;
+  list-style-type: none;
+  color: black;
+}
+
+
+
+.container .aboutrow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hero{
+  display: grid;
+}
+
+
+/* feature */
+
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+/* cta */
+
+.cta .container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column: 2fr 1fr 2fr ;
+  margin-top: 30px;
+}
+
+
+/* footer */
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.footernav{
+  grid-column: 1;
+  grid-row: 1/2;
+  list-style-type: none;
+}
+
+.footer-col {
+  grid-column: 2;
+  grid-row: auto;
+  margin-bottom: 0px;
+}
+
+.footer-right {
+  grid-column: 3;
+}
+
+/* ======+++++======++++=====+++=== */
+/* ========= DON'T TOUCH!!! ======= */
+/* ======+++++======++++=====+++=== */
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  background-color: #F7F7F7;
+}
+
+header {
+  border-bottom: 3px solid white;
+  background-color: white;
+}
+
+
+
+nav ul li {
+  padding: 15px;
+}
+
+.navigation a {
+  color: black;
+  transition: all 0.2s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+
+.navigation li:hover a {
+  color: blue;
+  transition: all 0.2s;
+}
+
+.hero-cont {
+  background-image: url('../img/melbourne.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-color: #555555;
+  background-blend-mode: multiply;
+  padding: 12em;
+}
+
+.hero h2, .hero h1 {
+  color: white;
+  
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 1em 0;
+}
+
+.hero h1 {
+  font-size: 2em;
+  font-style: italic;
+  padding: 0.8em 0; 
+}
+.img {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  column-gap: 15px;
+}
+
+.aboutbtn, .contactbtn {
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: #F65A5F;
+  padding: 5px 15px;
+  text-decoration:none;
+  transition: 0 0.2s;
+}
+
+.aboutbtn:hover, .contactbtn:hover {
+  background-color: #167C80;
+  color: white;
+  transition:0 0.2s;
+}
+
+.container .top {
+  padding: 1.5em 0;
+}
+
+.top h3 {
+  font-size: 2em;
+  line-height: 1.4em;
+  padding: 1em;
+  font-style: italic;
+}
+
+.top p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+.aboutrow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  padding: 15px;
+}
+
+.aboutcol {
+  border: 1px solid rgba(196, 193, 193, 0.945);
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+}
+
+.aboutcol h4 {
+  font-size: 1.3em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  padding: 0 0;
+}
+
+.feature {
+  background-color: white;
+}
+
+.feat-right {
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+
+.feat-right p {
+  color: black;
+  margin: 0em 0;
+
+}
+
+.feat-intro {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #ffe5c5;
+}
+
+.feat-right h3 {
+  font-size: 2em;
+  line-height: 0.4em;
+  color: black;
+  font-weight: bold;
+}
+
+.cta {
+  background-color: blue;
+  width: 15px 30px;
+}
+
+footer {
+  background-color: black;
+  color: #ddd;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer-col {
+  padding: 15px 0;
+}
+
+footer a {
+  color: #d0a064;
+  text-decoration: none;
+
+}
+
+input {
+  border: 0px;
+  background-color: #555;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  color: #555;
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px 15px;
+}
+
+footer h5 {
+  padding: 15px 0;
+}
+
+.cta .container h3 {
+  font-size: 2.5em;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    font-size: 16px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 50px 15px 50px 200px;
+  }}
